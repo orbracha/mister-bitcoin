@@ -1,0 +1,56 @@
+.contact-details-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px; 
+}
+.contact-details-header a:not(:last-child) {
+  margin: 0 10px 0 0; 
+}
+
+.contact-edit {
+  .contact-edit-row {
+    margin: 10px 0 0 0; 
+    input{
+      margin-left: 10px;
+      padding: 5px;
+      border-radius: 3px;
+    }
+    span{
+      display: block;
+      margin-left: 10px;
+      margin-bottom: 5px;
+    }
+  }
+  .btn-container{
+    display: flex;
+    justify-content: space-between;
+    top:0;
+    button{
+      background: none;
+      border: none;
+      &:focus{
+        outline: none;
+      }
+      img{
+        height: 30px;
+        width: 30px;
+      }
+    }
+
+  }
+  .save-btn{
+    margin-top: 10px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #8bb7f0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+  }
+}
+
+.moves-list-container, .transter-coins-container {
+  margin: 20px 0;
+}

@@ -1,0 +1,27 @@
+
+
+
+.contacts-page {
+  position: relative;
+  height: 100%; 
+
+  .action-container {
+    position: absolute;
+    bottom: -3px;
+    right: 10px;
+  }
+  .contacts-container {
+    max-height: 75vh;
+    overflow-x: auto; 
+    margin: 10px;
+    position: relative;
+    .add-link{
+       position: fixed;
+       bottom: 50px;
+       right: 50px;
+       border-radius: 50px;
+     }
+  }
+}
+
+

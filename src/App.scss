@@ -1,0 +1,41 @@
+.app {
+  padding: 20px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.app .app-content {
+  padding: 20px 0 0 0;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+.app [class^="flaticon-"]:before,
+.app [class*=" flaticon-"]:before,
+.app [class^="flaticon-"]:after,
+.app [class*=" flaticon-"]:after {
+    margin: 0; 
+}
+
+.nav-bar{
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 5px;
+      img{
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+      }
+    }
+    a:focus{
+      outline: none;
+    }
+  }
+  text-align: center;
+}
